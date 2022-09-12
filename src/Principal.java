@@ -135,7 +135,6 @@ public class Principal extends JFrame implements ActionListener {
                     
         } else if(e.getSource() == jButton2){
             JFrame jFrame2 = new JFrame();
-            JOptionPane.showMessageDialog(jFrame2, spinner1.getValue());
             int piedrasJ1 = (Integer) spinner1.getValue();
             if(piedrasJ1 >= 1 && piedrasJ1 <= (piedras.getPiedras() -1)){
                 JFrame jFrame = new JFrame();
@@ -165,7 +164,6 @@ public class Principal extends JFrame implements ActionListener {
             }
         } else if(e.getSource() == jButton3){
             JFrame jFrame2 = new JFrame();
-            JOptionPane.showMessageDialog(jFrame2, spinner2.getValue());
             int piedrasJ2 = (Integer) spinner2.getValue();
             if(piedrasJ2 >= 1 && piedrasJ2 <= (piedras.getPiedras() -1)){
                 JFrame jFrame = new JFrame();
